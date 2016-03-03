@@ -36,7 +36,7 @@
 	background-image: url("imgs/clouds3.jpeg");
 	background-size: cover;
 	background-position: 0 0;
-	transition: background 1s ease;
+	// transition: background 1s ease;
 }
 .hero{
 	float: left;
@@ -66,11 +66,13 @@
 	// background-size: contain;
 	animation: animatedBackground 5s forwards ;
 	width: 200%;
+	transition: background 1s ease;
 }
 .heroBG3{
 	background-image: url("imgs/clouds1.jpeg");	
 	animation: animatedBackground 5s forwards ;
 	width: 200%;
+	transition: background 1s ease;
 }
 
 
