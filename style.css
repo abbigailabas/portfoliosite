@@ -33,7 +33,7 @@
 	width: 100%;
 	// background-color: pink;
 	// opacity: 0;
-	background-image: url("imgs/cntower.jpeg");
+	background-image: url("imgs/clouds.jpeg");
 	background-size: cover;
 	background-position: 0 0;
 	transition: background 1s ease;
@@ -63,12 +63,13 @@
 
 .heroBG2{
 	background-image: url("imgs/clouds.jpeg");
-	animation: animatedBackground 10s linear ;
+	// background-size: contain;
+	animation: animatedBackground 5s forwards ;
 	width: 200%;
 }
 .heroBG3{
 	background-image: url("imgs/clouds1.jpeg");	
-	animation: animatedBackground 10s linear ;
+	animation: animatedBackground 10s forwards ;
 	width: 200%;
 }
 
@@ -82,7 +83,8 @@
 	font-size: 5em;
 	width: 3em;
 	border: 4px solid #2c3e50;
-	color: #2c3e50;
+	// color: #2c3e50;
+	color: red;
 	text-align: center;
 }
 .main-content{
