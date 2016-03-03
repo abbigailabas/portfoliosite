@@ -1,0 +1,23 @@
+{
+  "name": "portfoliosite",
+  "homepage": "https://github.com/abbigailabas/portfoliosite",
+  "authors": [
+    "Abby <abbigail.abas@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "^3.0.3",
+    "waypoints": "^4.0.0",
+    "jquery": "^2.2.1"
+  }
+}
