@@ -34,17 +34,17 @@ var waypoint = new Waypoint({
 
 
 
-$.scrollify({
-		section : ".main-content__section",
-		sectionName : "section-name",
-		easing: "easeOutExpo",
-		scrollSpeed: 900,
-		offset : 0,
-		scrollbars: true,
-		// standardScrollElements: "",
-		// before:function() {},
-		// after:function() {},
-		// afterResize:function() {},
-		// afterRender:function() {}
-	});
+// $.scrollify({
+// 		section : ".main-content__section",
+// 		sectionName : "section-name",
+// 		easing: "easeOutExpo",
+// 		scrollSpeed: 900,
+// 		offset : 0,
+// 		scrollbars: true,
+// 		// standardScrollElements: "",
+// 		// before:function() {},
+// 		// after:function() {},
+// 		// afterResize:function() {},
+// 		// afterRender:function() {}
+// 	});
 
