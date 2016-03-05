@@ -13,6 +13,18 @@
 *{
 	box-sizing: border-box;
 }
+
+/*
+nav
+ */
+.nav{
+	width: 60%;
+}
+.main-nav{
+	display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
 .main-content__section{
 	display: flex;
 	-webkit-flex-direction: column;
