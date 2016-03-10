@@ -140,10 +140,13 @@ work section
 }
 .work__content > div {
 	flex-grow: 1;
-
   	display: flex;
   	justify-content: center;
   	flex-direction: column;
+
+  	text-align: center;
+
+  	height: stretch;
 }
 .box{
 	width: 100%;
