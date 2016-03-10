@@ -95,7 +95,12 @@ nav
 	width: 200%;
 	transition: background 1s ease;
 }
-
+.heroBG4{
+	background-image: url("imgs/clouds3.jpeg");	
+	animation: animatedBackground 5s forwards ;
+	width: 200%;
+	transition: background 1s ease;
+}
 
 @keyframes animatedBackground {
 	from { transform: translateX(0) }
@@ -160,8 +165,12 @@ work section
 /*
 form stuff
  */
-.form-li p{
-	text-decoration: none;
+.form{
+	width: 100%;
+	margin: 0 auto;
+}
+input, textarea{
+	width: 75%;
 }
 
 
