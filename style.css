@@ -155,3 +155,13 @@ work section
 
 	align-items: stretch;
 }
+
+
+/*
+form stuff
+ */
+.form-li p{
+	text-decoration: none;
+}
+
+
