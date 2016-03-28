@@ -26,15 +26,18 @@
     justify-content: space-between;
     padding: 0;
     list-style-type: none;
-    
 }
 .main-nav__link{
 	display: inline-block;
 }
 .main-nav__link a{
 	text-decoration: none;
+	color: inherit;
 }
 
+/*****
+  main section / left side
+ *****/
 
 .main-content__section{
 	display: flex;
@@ -60,7 +63,7 @@
 	// opacity: 0;
 	background-image: url("imgs/clouds3.jpeg");
 	background-size: cover;
-	background-position: 0 0;
+	//background-position: 0 0;
 	// transition: background 1s ease;
 }
 .hero{
@@ -84,24 +87,28 @@
 	align-items: center;
 }
 
-.heroBG2{
+.heroBG1{
 	background-image: url("imgs/clouds.jpeg");
 	// background-size: contain;
-	animation: animatedBackground 5s forwards ;
+	// animation: animatedBackground 5s forwards ;
+	width: 200%;
+	transition: background 1s ease;
+}
+.heroBG2{
+	background-image: url("imgs/clouds1.jpeg");	
+	// animation: animatedBackground 5s forwards ;
 	width: 200%;
 	transition: background 1s ease;
 }
 .heroBG3{
-	background-image: url("imgs/clouds1.jpeg");	
-	animation: animatedBackground 5s forwards ;
+	background-image: url("imgs/clouds3.jpeg");	
+	// animation: animatedBackground 5s forwards ;
 	width: 200%;
 	transition: background 1s ease;
 }
-.heroBG4{
-	background-image: url("imgs/clouds3.jpeg");	
-	animation: animatedBackground 5s forwards ;
-	width: 200%;
-	transition: background 1s ease;
+
+.js-hero-animation{
+	animation: animatedBackground 1.2s forwards;
 }
 
 @keyframes animatedBackground {
@@ -111,6 +118,7 @@
 
 .hero__content__title{
 	font-size: 5em;
+	// display: inline-block;
 	width: 3em;
 	border: 4px solid #2c3e50;
 	color: #2c3e50;
